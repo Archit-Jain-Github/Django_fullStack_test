@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+djangoX
+{% endblock %}
+
+{% block content %}
+<h1 class="text-center mt-4">Welcome to Django based X</h1>
+
+<a href="{% url 'tweet_create' %}"> Create a tweet</a>
+
+{% endblock %}
